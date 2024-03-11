@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adolfo Reyes</title>
+
+    <!-- Etiquetas de CEO importantes -->
+    <meta name="description"
+        content="Portafolio de Adolfo Reyes, desarrollador con más de 3 años de experiencia en Sitios Web y aplicaciones móvil híbridas.">
+
+    <!-- OPEN GRAPH: Como instanciar correctamente nuestro sitio web desde otras partes -->
+    <meta property="og:title" content="Portafolio de Adolfo Reyes">
+    <meta property="og:description" content="Desarrollador Web y aplicaciones móviles híbridas con React Native.">
+    <meta property="og:image" content="/image/og.png">
+    <meta property="og:image:alt" content="Fotografía de Adolfo Reyes">
+
+    <!-- Alternativas del sito web, por ejemplo traducciones -->
+    <link rel="alternate" href="https://adolforeyes.netlify.com/en" hreflang="en-US">
+
+    <!-- Redireccionamiento al sitio principal -->
+    <link rel="canonical" href="https://adolforeyes.netlify.com">
+
+    <!-- Etiqueta para google y el orden de nuestro sitio -->
+    <meta name="robots" content="index, follow">
+
+    <!-- Agregar background-color al header del navegador -->
+    <meta name="theme-color" content="#09f">
+
+    <!-- Agregar favicon al sitio en el header del navegador -->
+    <link rel="icon" href="/image/favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+    <!-- Agregar encabezado al sitio web -->
+    <!-- header, se puede repetir n veces en la misma página -->
+    <header>
+        <!-- Etiqueta para titulo principal h1 opcional -->
+        <h1>Portafolio de Adolfo Reyes</h1>
+        <!-- Agregar navegación -->
+        <nav>
+            <!-- Link o enlaces de la navegación -->
+            <a href="#experiencia">Experiencia</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="https://adolfo-reyes.netlify.app/" target="_blank" rel="noopener noreferrer">Mi sitio</a>
+        </nav>
+    </header>
+
+    <!-- Englobar el contenido más importante del sitio web con main -->
+    <main>
+
+        <!-- Agregar descripción del perfil -->
+        <p>+3 años de experiencia como Desarrollador Web y Aplicaciones Móvil.</p>
+
+        <!-- Agregar subtitulo -->
+        <h2 id="experiencia">Experiencia</h2>
+
+        <!-- Etiqueta para listar desordenadamente -->
+        <ul>
+            <li>Inversiones Accionarias Landus - 2021</li>
+            <li>TootleSoft - 2020</li>
+            <li>Alian Plastics S.A de C.V. - 2018</li>
+        </ul>
+
+        <!-- Agregar fotografía -->
+        <img src="#" alt="Fotografía de Adolfo Reyes" title="Ing. Adolfo Reyes" height="120" width="120">
+
+        <!-- Agregar subtitulo -->
+        <h2 id="proyectos">Proyectos realizados</h2>
+
+        <!-- Agregar un contexto, se relaciona al contenido -->
+        <aside>
+            <!-- Agregar encabezado del contexto -->
+            <header>
+                <!-- Agregar titulo del contexto -->
+                <h3>Mis tecnologías favoritas</h3>
+            </header>
+            <!-- Agregar lista ordena -->
+            <ol>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>Jasvascript</li>
+                <li>Node.js</li>
+            </ol>
+        </aside>
+
+        <!-- Agregar sección de contenido -->
+        <section>
+            <!-- Agregar bloques de contenido, es decir artículos (información independiente). -->
+            <article>
+                <!-- Agregar encabezado -->
+                <header>
+                    <!-- Agregar titulo -->
+                    <h4>Sitio Web Corporativo</h4>
+                </header>
+                <!-- Agregar texto -->
+                <p>
+                    Desarrollo de un sitio web corporativo con una interfaz amigable y moderna.
+                </p>
+                <!-- Agregar píe de página -->
+                <footer>
+                    <!-- Agregar información poco referente, información adicional -->
+                    <small>Tecnologías utilizadas: HTML, CSS, Jasvascript</small>
+                </footer>
+            </article>
+        </section>
+
+        <section>
+            <h2>Preguntas frecuentes</h2>
+            <!-- Agregar un componente desplazable -->
+            <details open>
+                <!-- Titulo de la opción -->
+                <summary>¿Nivel de estudios?</summary>
+                <p>Título de Ingeniero en Tecnologías de la Información y Comunicación.</p>
+            </details>
+            <details>
+                <summary>¿Años de experiencia como desarrollador web y móvil?</summary>
+                <p>+3 años aplicando mis conocimientos en desarrollo web y móvil.</p>
+            </details>
+            <details>
+                <summary>¿Cuáles son tus hobbies?</summary>
+                <p>Me apaciona seguir estudiando las nuevas tecnologías de Desarrollo web y móvil. Tembién, me gusta prácticar futbool los fines de semana y salir a caminar con mi mascota Hosting Quiboro.</p>
+            </details>
+        </section>
+
+        <section>
+            <h2>Formulario de contacto</h2>
+            <!-- Agregar formulario de contacto -->
+            <form action="" method="post">
+                <!-- Agrupar diferentes inputs -->
+                <fieldset>
+                    <!-- Agregar leyenda al fieldset -->
+                    <legend>Información personal</legend>
+                    <!-- Agregar bloques (espacios aislados o independientes) -->
+                    <div>
+                        <!-- Agregar texto referente al input -->
+                        <label for="name">Nombre:</label>
+                        <input type="text" name="name" id="name" placeholder="Adolfo Reyes" required>
+                    </div>
+                    <div>
+                        <label for="email">Correo eléctronico</label>
+                        <input type="email" name="email" id="email" placeholder="adolfo.reyes@gmail.com" required>
+                    </div>
+                </fieldset>
+                <button>Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Agregar píe(footer) de la página -->
+    <footer>
+        Copyright @ 2024 Adolfo Reyes
+
+        <!-- Agregar enlace para enviar correo eléctronico -->
+        <a href="mailto:mktic.test@gmail.com">Enviar correo eléctronico</a>
+        <!-- Agregar enlace para llamar -->
+        <a href="tel:+0527891102965">Realizar llamada por teléfono</a>
+        <!-- Enlcae para enviar whatsApp -->
+        <a href="whatsapp://send?text=Hola mundo">Enviar whatsApp</a>
+    </footer>
+</body>
+
+</html>
